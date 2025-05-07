@@ -1,0 +1,18 @@
+{
+    "inputs": [
+      // The "inputs" section defines the inputs required for the MCP server configuration. 
+      {
+        "id": "flight-search-server",
+        "description": "Owens Tools",
+        "type": "promptString"
+      }
+    ],
+    "servers": {
+      // The "servers" section defines the MCP servers you want to use.
+      "flight-search-server": {
+        "type": "stdio",
+        "command": "node",
+        "args": ["${workspaceFolder}/dist/server.js"],
+      }
+     }
+    }

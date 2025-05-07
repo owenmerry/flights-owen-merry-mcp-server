@@ -1,0 +1,23 @@
+{
+  "name": "flights-owen-merry-mcp-server",
+  "version": "1.0.0",
+  "description": "Flights owen merry mcp server",
+  "main": "dist/server.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.11.0",
+    "@tsconfig/node22": "^22.0.1",
+    "fastmcp": "^1.23.2",
+    "node-fetch": "^3.3.2",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3",
+    "zod": "^3.24.3"
+  },
+  "engines": {
+    "node": ">=18.x"
+  }
+}
