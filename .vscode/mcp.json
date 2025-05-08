@@ -11,8 +11,8 @@
       // The "servers" section defines the MCP servers you want to use.
       "flight-search-server": {
         "type": "stdio",
-        "command": "node",
-        "args": ["${workspaceFolder}/dist/server.js"],
+        "command": "npx",
+        "args": ["tsx", "${workspaceFolder}/src/server.ts"],
       }
      }
     }
